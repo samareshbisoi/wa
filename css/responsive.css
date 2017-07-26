@@ -1,0 +1,159 @@
+@media (max-width:600px){
+    .gallery .row > div{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:767px){
+    .site-header .navbar-brand {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 130px;
+    }
+    .site-header.fix-header .navbar-brand {
+        top: -25px;
+    }
+    .site-header.fix-header .navbar-brand img {
+        transform: scale(0.8);
+        transition: transform 2s ease-in-out;
+    }
+    .site-header .navbar-header,.site-header .container-fluid>.navbar-collapse, 
+    .site-header .container-fluid>.navbar-header, .site-header .container>.navbar-collapse,
+    .site-header .container>.navbar-header {
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+    .site-header .navbar-brand img {
+        display: inline-block;
+    }
+    .banner-slogan{
+        margin: 20px 0;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 37px;
+        line-height: 50px;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        padding: 0 20px;
+        margin-top: 4px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .site-header .navbar-collapse .navbar-nav {
+        margin: 0; 
+        float: none;
+        width: 100%;
+        background-color: #fff;
+        text-align: left;
+        position: absolute;
+        left: 0;
+        box-shadow: 0 0 10px 2px #b1adad;
+        padding: 10px;
+        z-index: 2;
+    }
+    .site-header .navbar-collapse .navbar-nav li a, .site-header .navbar-collapse .navbar-nav li a:hover{
+        color: #2b2b2b;
+        padding: 10px 20px;
+        margin: 0;
+    }
+    .site-header .navbar-collapse .navbar-nav li a:hover{
+        background-color: #f6f6f6;
+    }
+    .site-h2 {
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+        width: calc(100%);
+        margin-bottom: 20px;
+    }
+    .our-team p, .contact-box p, .contact-box address {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 15px 15px;
+    }
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+        margin-bottom:30px;
+    }
+    ul.social-network{
+        text-align: center;
+        display: inherit;
+        margin-top: 30px;
+    }
+    ul.social-network li{
+        display: inline-block;
+    }
+    .video-box{
+        margin: 0 auto;
+        clear: both;
+        float: none;
+    }
+    .gallery .img-responsive{
+        display: inline-block;
+    }
+    .gallery .row {
+        text-align: center;
+    }
+    .gallery .row > div{
+        display: inline-block;
+        width: auto;
+        padding: 0;
+    }
+    .carousel-inner .active.left { left: -100%; }
+    .carousel-inner .next { left:  100%; }
+    .carousel-inner .prev{ left: -100%; }
+    .active > div { display:none; }
+    .active > div:first-child { display:block; }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .banner-slogan{
+        margin: 40px 0;
+        padding: 0 60px 0 60px;
+    }
+    .our-team p, .contact-box p, .contact-box address {
+        font-size: 18px;
+        margin: 0 30px 15px;
+    }
+    .site-h2 {
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+    .video-box{
+        margin: 0 auto;
+        clear: both;
+        float: none;
+    }
+    .carousel-inner .active.left { left: -50%; }
+    .carousel-inner .next{ left:  50%; }
+    .carousel-inner .prev{ left: -50%; }
+    .active > div { display:none; }
+    .active > div:first-child { display:block; }
+    .active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+    .carousel-inner .active.left { left: -25%; }
+    .carousel-inner .next{ left:  25%; }
+    .carousel-inner .prev{ left: -25%; }	
+}
